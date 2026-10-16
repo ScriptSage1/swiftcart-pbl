@@ -1,0 +1,70 @@
+{
+ "01-feedback-themes": [
+  820,
+  450
+ ],
+ "02-priority-matrix": [
+  820,
+  560
+ ],
+ "03-user-story-map": [
+  1500,
+  824
+ ],
+ "04-workflow-as-is": [
+  820,
+  372
+ ],
+ "05-workflow-to-be": [
+  820,
+  392
+ ],
+ "06-use-case": [
+  860,
+  760
+ ],
+ "07-class-diagram": [
+  1400,
+  742
+ ],
+ "08-sequence-checkout": [
+  1240,
+  818
+ ],
+ "09-activity-checkout": [
+  820,
+  1080
+ ],
+ "10-state-order": [
+  820,
+  790
+ ],
+ "11-component": [
+  1240,
+  640
+ ],
+ "12-deployment": [
+  820,
+  690
+ ],
+ "13-dfd-level0": [
+  820,
+  600
+ ],
+ "14-dfd-level1": [
+  1240,
+  800
+ ],
+ "15-architecture": [
+  820,
+  706
+ ],
+ "16-object-diagram": [
+  960,
+  540
+ ],
+ "17-collaboration-order": [
+  1000,
+  500
+ ]
+}

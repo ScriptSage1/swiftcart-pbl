@@ -1,0 +1,56 @@
+▶ formatMoney
+  ✔ UT-01 formats rupees with Indian digit grouping (36.9794ms)
+✔ formatMoney (37.4601ms)
+▶ cart operations
+  ✔ UT-02 adds a new product as a line with quantity 1 (1.3399ms)
+  ✔ UT-03 merges repeat adds into one line (0.1032ms)
+  ✔ UT-04 never exceeds the available stock (0.0852ms)
+  ✔ UT-05 never exceeds the per-order limit (0.0619ms)
+  ✔ UT-06 ignores invalid quantities and does not mutate the input (0.1106ms)
+  ✔ UT-07 sets a quantity, and removes the line at zero (0.1483ms)
+  ✔ UT-08 removes a line and counts items (0.0989ms)
+✔ cart operations (2.4555ms)
+▶ promo codes
+  ✔ UT-09 rejects empty and unknown codes (0.154ms)
+  ✔ UT-10 applies a percentage discount and respects the cap (0.1273ms)
+  ✔ UT-11 enforces the minimum order value (0.7322ms)
+  ✔ UT-12 is case-insensitive and trims spaces (0.0594ms)
+  ✔ UT-13 recognises a free-delivery code (0.0376ms)
+✔ promo codes (2.1073ms)
+▶ order totals
+  ✔ UT-14 returns zeros for an empty cart (0.1683ms)
+  ✔ UT-15 charges standard delivery below the free-delivery threshold (0.0723ms)
+  ✔ UT-16 makes standard delivery free exactly at the threshold (boundary) (0.0634ms)
+  ✔ UT-17 always charges express delivery unless a code waives it (0.0525ms)
+  ✔ UT-18 applies the threshold after the discount (0.0541ms)
+  ✔ UT-19 reports the GST contained in a tax-inclusive price (0.0382ms)
+  ✔ UT-20 adds line totals, savings and ignores unknown products (0.0432ms)
+  ✔ UT-21 ignores a promo code that does not qualify (0.1075ms)
+✔ order totals (0.6961ms)
+▶ card helpers
+  ✔ UT-22 validates card numbers with the Luhn checksum (0.1137ms)
+  ✔ UT-23 detects the card network from the prefix (0.1394ms)
+  ✔ UT-24 formats card numbers and expiry dates as the shopper types (0.092ms)
+✔ card helpers (0.4034ms)
+▶ form validation
+  ✔ UT-25 validates email addresses (0.1212ms)
+  ✔ UT-26 validates 10-digit Indian mobile numbers (0.0581ms)
+  ✔ UT-27 validates names, addresses and PIN codes (0.309ms)
+  ✔ UT-28 validates UPI IDs (0.0889ms)
+  ✔ UT-29 validates card expiry against the current date (0.4663ms)
+  ✔ UT-30 validates the card number and security code (0.1156ms)
+✔ form validation (1.2419ms)
+▶ delivery
+  ✔ UT-31 looks up the city and state for a PIN code (0.0661ms)
+  ✔ UT-32 skips Sundays when counting delivery days (0.2771ms)
+  ✔ UT-33 estimates a delivery window for each delivery option (0.096ms)
+  ✔ UT-34 generates order numbers in the SC-000000 format (0.0777ms)
+✔ delivery (0.5799ms)
+ℹ tests 34
+ℹ suites 7
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 162.0311

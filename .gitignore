@@ -1,0 +1,9 @@
+# Dependencies (reinstall with npm install)
+node_modules/
+
+# Word lock files
+~$*
+
+# Superseded report, kept locally only
+report/PBL_Report_E-Commerce_Platform_Upgrade.docx
+report/PBL_Report_E-Commerce_Platform_Upgrade.pdf

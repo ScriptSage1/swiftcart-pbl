@@ -1,0 +1,53 @@
+▶ Catalogue
+  ✔ TC-01 shows skeleton placeholders, then all 12 products (1980.3046ms)
+  ✔ TC-02 filters products by category (924.0391ms)
+  ✔ TC-03 searches products and shows an empty state when nothing matches (1267.5722ms)
+  ✔ TC-04 sorts products by price, low to high (896.8382ms)
+✔ Catalogue (5759.2891ms)
+▶ Cart
+  ✔ TC-05 adds a product and shows it in the cart drawer (1001.8512ms)
+  ✔ TC-06 updates quantity and totals, and empties the cart at zero (1112.0235ms)
+  ✔ TC-07 does not allow more than the available stock (1057.6123ms)
+  ✔ TC-08 keeps the cart after the page is reloaded (1712.2313ms)
+  ✔ TC-09 shows the delivery charge up front and waives it above the threshold (1076.106ms)
+  ✔ TC-10 restores a removed item with Undo (1018.0898ms)
+  ✔ TC-11 closes the drawer with Escape and returns focus to the cart button (931.6583ms)
+✔ Cart (7910.2728ms)
+▶ Checkout
+  ✔ TC-12 shows a message instead of the form when the cart is empty (939.1624ms)
+  ✔ TC-13 blocks progress and explains every missing field (1096.7649ms)
+  ✔ TC-14 validates email and mobile number formats inline (1134.662ms)
+  ✔ TC-15 fills in city and state from the PIN code (1460.9169ms)
+  ✔ TC-16 rejects an unknown promo code and applies a valid one (1130.3695ms)
+  ✔ TC-17 updates the total when the delivery method changes (1662.9642ms)
+  ✔ TC-18 lets the shopper go back and edit a completed step (1667.3967ms)
+  ✔ TC-19 rejects an invalid card number (1790.9175ms)
+  ✔ TC-20 completes a guest checkout with UPI and shows the confirmation (3039.3483ms)
+  ✔ TC-21 completes a checkout with a card and stores only the last four digits (3103.836ms)
+  ✔ TC-22 completes a cash-on-delivery order without payment details (3020.7275ms)
+  ✔ TC-23 pre-fills saved details on the next checkout (3835.2917ms)
+  ✔ TC-24 takes "Buy now" straight to checkout with the item in the cart (1085.249ms)
+  ✔ TC-25 renders shopper-entered HTML as plain text (no script injection) (3044.2967ms)
+✔ Checkout (28012.9488ms)
+▶ Mobile layout
+  ✔ TC-26 fits a 390px screen and collapses the order summary (1827.5099ms)
+✔ Mobile layout (1827.7455ms)
+▶ Recovery and analytics
+  ✔ TC-27 reminds a returning shopper that the cart was saved (1897.0514ms)
+  ✔ TC-28 records the checkout funnel events for analysis (3031.248ms)
+✔ Recovery and analytics (4928.5216ms)
+▶ My orders
+  ✔ TC-30 shows an empty state before any order is placed (958.6746ms)
+  ✔ TC-31 lists placed orders, newest first, with total and estimated arrival (5372.5254ms)
+✔ My orders (6331.4236ms)
+▶ Stability
+  ✔ TC-29 runs a full purchase without any JavaScript errors (3784.7665ms)
+✔ Stability (3784.9053ms)
+ℹ tests 31
+ℹ suites 7
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61132.9517

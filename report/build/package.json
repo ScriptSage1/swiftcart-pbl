@@ -1,0 +1,15 @@
+{
+  "name": "pbl-report-build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scripts that regenerate the diagrams, screenshots and Word report for the E-Commerce Platform Upgrade PBL.",
+  "scripts": {
+    "diagrams": "node render-diagrams.js",
+    "screenshots": "node capture-screenshots.js",
+    "report": "node build-report.js"
+  },
+  "dependencies": {
+    "docx": "^9.10.0",
+    "puppeteer-core": "^25.13.0"
+  }
+}

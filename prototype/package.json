@@ -1,0 +1,14 @@
+{
+  "name": "swiftcart-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prototype for the E-Commerce Platform Upgrade PBL: saved carts, transparent pricing and a three-step guest checkout.",
+  "scripts": {
+    "test": "node --test tests/core.test.js",
+    "test:e2e": "node --test tests/e2e.test.js",
+    "test:all": "node --test tests/core.test.js tests/e2e.test.js"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.13.0"
+  }
+}
